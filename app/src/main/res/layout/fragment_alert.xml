@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="31 Maret"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="10dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mag:3.9, 31/03/2020 02:19:23 (Pusat gempa di laut 68 km BaratDaya Jembrana), Kedlmn:70 Km Dirasakan (MMI) II Kuta"
+        android:layout_margin="10dp"/>
+    <View
+        android:id="@+id/view1"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginTop="5dp"
+        android:background="#858585"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="30 Maret"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="10dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mag:3.3, 30/03/2020 19:36:36 (Pusat gempa di laut 14 km timur Kab. Luwu), Kedlmn:10 Km Dirasakan (MMI) II Belopa"
+        android:layout_margin="10dp"/>
+    <View
+        android:id="@+id/view2"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginTop="5dp"
+        android:background="#858585"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="19 Maret"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="10dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mag:6.6, 19-Mar-20 00:45:37 WIB, Lok:11.25 LS,115.09 BT (273 km BaratDaya KUTASELATAN-BALI), Kedlmn:10 Km, tdk berpotensi tsunami"
+        android:layout_margin="10dp"/>
+    <View
+        android:id="@+id/view3"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginTop="5dp"
+        android:background="#858585"/>
+    
+</LinearLayout>
